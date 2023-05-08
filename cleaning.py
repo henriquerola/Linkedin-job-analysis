@@ -1,6 +1,5 @@
 import csv
 import pandas as pd
-from searchdata import info as data
 # Define a list of words to count
 words_to_count = ["python", "SQL", "Pacote Office", "Power BI", "SQLite", "Git", "Java", "AWS", "Pandas"]
 
@@ -27,17 +26,39 @@ def count_words_in_csv(csv_filename, words_to_count):
 
             # Reset the set of words already counted for the next row
             words_already_counted = set()
-        # add how many discriptions were used
+        # add how many descriptions were used
         csv_file.seek(0)
         word_counts['Total jobs'] = sum(1 for row in reader)
     # Return the word counts
     return word_counts
 
+def get_search_info(csv_filename):
+    # Open the CSV file for reading
+    with open(csv_filename, mode='r', newline='', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        header = reader.fieldnames
+        header.remove('job_description')
+        headerDict = {}
+        headerDict['keywords'] = header[0]
+        headerDict['location'] = header[1]
+        headerDict['times'] = header[2]
+        headerDict['tipo'] = header[3]
+        headerDict['experience'] = header[4]
+        headerDict['modalidade'] = header[5]
+    # Return the word counts
+    return headerDict
+    
+# update database
+columns = get_search_info('job_descriptions.csv')
 
 word_counts = count_words_in_csv('job_descriptions.csv', words_to_count)
-# make a new csv file with the clean data
-columns = data.copy()
 columns.update(word_counts)
-database = pd.DataFrame(columns,index=[0])
-database.to_csv('database.csv')
-print(database)
+
+database = pd.read_csv('database.csv')
+database = database._append(columns, ignore_index=True)
+
+# eliminate duplicates
+database = database.drop_duplicates()
+
+database.to_csv('database.csv',index=False)
+#print(database)
