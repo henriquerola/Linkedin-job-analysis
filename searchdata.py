@@ -4,7 +4,7 @@ def get_info():
     ans = 'y' #input("Do you want to use the predefined search? (y/n): ")
     info = {}
     if ans == 'y':
-        info['keywords'] = 'Análise de dados'
+        info['keywords'] = 'Análise de Dados'
         info['location'] = 'Brasil'
         info['times'] = '2592000'
         info['tipo'] = '1'

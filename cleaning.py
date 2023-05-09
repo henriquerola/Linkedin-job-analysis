@@ -1,7 +1,8 @@
 import csv
 import pandas as pd
+from skills import skills
 # Define a list of words to count
-words_to_count = ["python", "SQL", "Pacote Office", "Power BI", "SQLite", "Git", "Java", "AWS", "Pandas"]
+words_to_count = skills
 
 def count_words_in_csv(csv_filename, words_to_count):
     # Open the CSV file for reading
