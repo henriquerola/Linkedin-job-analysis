@@ -1,23 +1,24 @@
+# list of search terms
 skills = [
     'JavaScript', # programming language (27)
     'Python',
-    'Java',
+    'Java ',
     'C#',
     'C++',
     'TypeScript',
     'Ruby',
-    'Swift',
+    ' Swift ',
     ' Go ',
     'Kotlin',
     'PHP',
     ' R ',
     'Objective-C',
     'Rust',
-    'Scala',
+    'Scala ',
     'Shell',
     'Perl',
     'Groovy',
-    'Lua',
+    ' Lua ',
     'Haskell',
     'MATLAB',
     'Julia',
@@ -50,7 +51,7 @@ skills = [
     'Keras',
     'Scikit-learn',
     'Apache Spark',
-    'jQuery', # databases (25)
+    'jQuery', # Databases (25)
     'MySQL',
     'PostgreSQL',
     'Microsoft SQL Server',
@@ -75,7 +76,7 @@ skills = [
     'InfluxDB',
     'RethinkDB',
     'RavenDB',
-    'ArangoDB', # libraries (25)
+    'ArangoDB', # Libraries (25)
     'requests',
     'NumPy',
     'Pandas',
@@ -101,7 +102,7 @@ skills = [
     'SQLAlchemy',
     'pytest',
     'unittest',
-    'pytest-django', # cloud (25)
+    'pytest-django', # Cloud (25)
     'Amazon Web Services (AWS)',
     'Microsoft Azure',
     'Google Cloud Platform (GCP)',
@@ -126,8 +127,8 @@ skills = [
     'HashiCorp Nomad',
     'VMware Tanzu',
     'Citrix Cloud',
-    'Zoho Cloud', # tools (31)
-    'Git',
+    'Zoho Cloud', # Tools (31)
+    ' Git ',
     'Docker',
     'Kubernetes',
     'Jenkins',
@@ -156,7 +157,7 @@ skills = [
     'Excel',
     'Word',
     ' SAS ',
-    'SAP',
-    'SSIS',
+    ' SAP ',
+    ' SSIS ',
     'PowerPoint'
 ]
