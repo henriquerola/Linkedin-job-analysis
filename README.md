@@ -63,13 +63,16 @@ Hypothesis: Yes. I expect that entry level jobs would mention general skills mor
 probably did not affect much on the final results for the questions that I have were pretty general.   
 
 ## Top 10 skills (sum of all)
-![Somatório](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/49de064b-0770-43e6-b0eb-4e80139951f6)
+![Somatório](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/25b9eff8-8c73-46f1-92ce-c5c65f94062d)
+
 
 ## remote vs in person 
-![Engenheiro de software](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/d7c43fcb-595c-437f-bf21-a8ebd1e02d70)
+![Engenheiro de software](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/350b77e2-8677-424a-81a6-05420a20c193)
+
 
 ## entry level vs junior-senior level
-![Analista de dados](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/7ac4b7f7-c8dc-465e-921b-9b581df1c518)
+![Analista de dados](https://github.com/henriquerola/Linkedin-job-analysis/assets/107077420/d94e883e-b565-425d-8e63-ec1f22c058bb)
+
 
 ## Final Results
 - Is there any relevant difference between my results and the survey? if yes what are they and what is the most probable cause.
