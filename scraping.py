@@ -17,7 +17,7 @@ url = "https://www.linkedin.com/login"
 driver.get(url)
 
 # enter the user's login credentials
-username = "Usermail"
+username = "Username"
 password = "******"
 username_field = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.ID,"username")))
 password_field = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.ID,"password")))
