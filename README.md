@@ -1,4 +1,4 @@
-# Linkedin-job-analysis
+# Linkedin job analysis
 Scripts that takes data from the job tab on linkedin and returns skills mentioned
 
 # Prerequisites
@@ -91,5 +91,5 @@ Conclusion: in a sense yes, junior-senior levels seemed to mention skills slight
 - diversify the places from which data is extracted. (Other job posting sites, google, social media..)
 
 # Inspirations and fonts
-- Stack Overflow Developer Survey 2022
-- lukebarousse video ![shiet]https://www.youtube.com/watch?v=1kU_ASADlPY&t=307s
+- [Stack Overflow Developer Survey 2022](https://survey.stackoverflow.co/2022/)
+- lukebarousse [video](https://www.youtube.com/watch?v=1kU_ASADlPY&t=307s)
